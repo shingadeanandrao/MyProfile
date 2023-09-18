@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <style>
         .heading{
             color: brown;
             background-color: aqua;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Roboto Condensed', sans-serif;
         }
         #text{
             color: rgb(27, 177, 62);
@@ -16,15 +22,18 @@
             color: blueviolet;
             background-color: bisque;
         }
+        .objectives, #expSummary{
+            font-family: 'Poppins', sans-serif;
+        }
     </style>
 </head>
 <body>
     <fieldset>
-        <legend> <strong>Professional Summary </strong></legend>
+        <legend> <strong class="heading">Professional Summary </strong></legend>
         <h2 class="heading">Career Objectives</h2>
-        <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
+        <p class="objectives">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
         <h2 class="heading">Professional Summary</h2>
-        <ul>
+        <ul id="expSummary">
             <li>Having 1 year of experience in developing Single page Web Applications using <span id="text"> Angular 8 </span>, HTML 5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
             <li id="item2">Experience on working with version control system-GIT and GitHub</li>
             <li>Experience in working with JIRA for user stories and bug tracking</li>

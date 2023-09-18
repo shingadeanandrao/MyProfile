@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+        .heading{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        #technology,#uiTech, #backend{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h2>My Technology Stack </h2>
-        <ul>
+    <h2 class="heading">My Technology Stack </h2>
+        <ul id="technology">
             <li>HTML</li>
             <li>CSS</li>
             <li>JAVASCIPT</li>
@@ -22,10 +35,10 @@
             <li>Docker</li>
         </ul>
         <hr>
-        <h2>My Technology Stack- UI and Backend along with DB</h2>
-        <ol>
+        <h2 class="heading">My Technology Stack- UI and Backend along with DB</h2>
+        <ol class="heading">
             <li>UI Technology
-                <ul>
+                <ul id="uiTech">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Angular</li>
@@ -34,14 +47,11 @@
                 </ul>
             </li>
             <li>Backend Technology
-                <ul>
-                    <li></li>
+                <ul id="backend">
                     <li>Spring Boot</li>
 
                 </ul>
             </li>
-
-
         </ol>
 </body>
 </html>

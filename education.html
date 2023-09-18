@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+        .heading, .thead{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        #tdata{
+            font-family: 'Poppins', sans-serif;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Academic Details</h2>
+    <h2 class="heading">Academic Details</h2>
     <table border="1px">
         <thead>
             <tr>
-                <th>Sr.No</th>
-                <th>Academic</th>
-                <th>College Name</th>
-                <th>University/Board</th>
+                <th class="thead">Sr.No</th>
+                <th class="thead">Academic</th>
+                <th class="thead">College Name</th>
+                <th class="thead">University/Board</th>
             </tr>
         </thead>
+        <tbody id="tdata">
             <tr>
                 <td>1</td>
                 <td>Graduation</td>
@@ -34,7 +49,6 @@
                 <td>KBP Vidyalaya,Piliv(Malshiras)</td>
                 <td>Pune Board</td>
             </tr>
-        <tbody>
 
         </tbody>
     </table>

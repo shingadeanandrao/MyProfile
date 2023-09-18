@@ -6,37 +6,50 @@
     <title>Personal Info</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/myFevicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+        .heading{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        #basicDetails, #contactDetails, #experience{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <fieldset>
-        <legend><h2>Personal Information</h2></strong></legend>
+        <legend><h2 class="heading">Personal Information</h2></strong></legend>
     <ol>
-    <li><h2><Strong>Basic Details:</Strong></h2></li>
+    <li><h2><Strong class="heading">Basic Details:</Strong></h2></li>
     <hr>
-    <ul>
+    <ul id="basicDetails">
         <li>Name:Anandrao Shingade</li>
         <li>Date of Birth: 07 September 1994</li>
         <li>Gender: Male</li>
         <li>Nationality:Indian</li>
     </ul>
     <hr>
-    <li><h2>Contact Details:</h2></li>
+    <li><h2 class="heading">Contact Details:</h2></li>
     <hr>
-    <ul>
+    <ul id="contactDetails">
         <li>Mobile No.: +91 9049 24 8513</li>
         <li>Email id: shingadeanandrao@gmail.com</li>
         <li>linkedin profile: linkedin.com/in/anandrao-shingade-39b7b0115</li>
     </ul>
     <hr>
-    <li><h2>Experience Summary:</h2></li>
+    <li><h2 class="heading">Experience Summary:</h2></li>
     <hr>
-    <ol>
+    <ol id="experience">
         <li>Software Test Engineer-Exp 1.2 years </li>
         <li>SAP ABAP Developer-Exp 1 year</li>
     </ol>
     </ol>
     </fieldset>
-    <span> <strong>Follow me</strong></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span> <strong class="heading">Follow me</strong></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.google.com/" target="_blank"><i class="fa fa-2x fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.facebook.com/facebook/" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
