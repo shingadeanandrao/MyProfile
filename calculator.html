@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <style>
+    .calculator{
+        width: 400px;
+        display: inline-block;
+        border: 2px solid red;
+        background-color: rgb(190, 214, 214);
+        color: cadetblue;
+        font-family: 'Mooli', sans-serif;
+        position: relative;
+        left: 400px;
+        top: 150px;
+    }
+    label{
+        margin-left: 10px;
+    }
+    input[type="number"], button{
+        width: 80%;
+        margin-left:10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color: #4caf50;
+     }
+     button{
+        color: rgb(191, 217, 218);
+       
+     }
+     button:hover{
+        color: burlywood;
+        
+     }
+    .heading{
+        position: relative;
+        left: 100px;
+    }
+    p{
+        margin-left: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="calculator">
+        <h2 class="heading">Discount Calculator</h2>
+        <p>Enter the bill amount and discount in percentage</p>
+        <label for="bill">Bill Amount</label>
+        <input type="number" name="bill">
+        <label for="discount">Discount Percentage</label> 
+        <input type="number" name="discount">
+        <button>Calculate</button>
+        <p>Total Discount Amount</p>
+    </div>
+</body>
+</html>
